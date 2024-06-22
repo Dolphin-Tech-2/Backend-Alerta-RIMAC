@@ -12,7 +12,7 @@ import google.generativeai as genai
 genai.configure(api_key= 'AIzaSyD-QCHV_3TeGPknu_S2-SnjBfrIIUA5tfg')
 
 # Create your views here.
-@api_view(['GET'])
+@api_view(['POST'])
 def chatbot(request):
     data = request.data
     
