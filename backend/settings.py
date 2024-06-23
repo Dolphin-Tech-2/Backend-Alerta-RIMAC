@@ -48,7 +48,8 @@ DJANGO_APPS = [
 ]
 
 PROYECT_APPS = [
-    'apps.ia'
+    'apps.ia',
+    'apps.eventos'
 ]
 
 THIRD_PARTY_APPS = [
